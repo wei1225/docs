@@ -21,7 +21,7 @@ Ubuntu 12.04 LTS (server edition)
 
 ### 安装依赖
 ```
-apt-get install python-simplejson python-qt4 python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential autoconf automake pkg-config libssl-dev iproute tcpdump module-assistant
+apt-get install python-simplejson python-qt4 python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential autoconf automake pkg-config libssl-dev iproute tcpdump module-assistant debhelper python-all
 
 apt-get install linux-headers-`uname -r`
 
@@ -54,4 +54,4 @@ module-assistant auto-install openvswitch-datapath
 service openvswitch-switch start
 ```
 
-也可以开启ovs与linux bridge的兼容模式,修改`/etc/default/openvswitch-switch`,把`#BRCOMPAT=no`改成`BRCOMPAT=yes`
+最后开启ovs与linux bridge的兼容模式,修改`/etc/default/openvswitch-switch`,把`#BRCOMPAT=no`改成`BRCOMPAT=yes`(重启后生效)
