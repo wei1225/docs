@@ -14,6 +14,8 @@ ToMaTo 是"Topology Management Tools"的缩写,其[官方主页](http://tomato.g
 
 首先应安装该项目的依赖.如下:
 
+注: `python-django`不要用`apt-get`安装,兼容性有问题,我测试了手工安装1.3版本可用
+
 * tomato-web依赖:
 
 ```
