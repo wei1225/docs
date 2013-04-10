@@ -13,7 +13,7 @@
 
 ##模块
 
-「此处应有图片」
+![architecutre](https://github.com/cannium/docs/raw/master/ref/architecture.png)
 
 ##思路
 
