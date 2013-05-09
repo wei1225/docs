@@ -55,3 +55,5 @@ service openvswitch-switch start
 ```
 
 最后开启ovs与linux bridge的兼容模式,修改`/etc/default/openvswitch-switch`,把`#BRCOMPAT=no`改成`BRCOMPAT=yes`(重启后生效)
+
+**注：** 该兼容模式在v1.10及以后已[不再被支持](http://openvswitch.org/releases/NEWS-1.10.0)
