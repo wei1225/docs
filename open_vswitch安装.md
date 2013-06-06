@@ -21,7 +21,7 @@ Ubuntu 12.04 LTS (server edition)
 
 ### 安装依赖
 ```
-apt-get install python-simplejson python-qt4 python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential autoconf automake pkg-config libssl-dev iproute tcpdump module-assistant debhelper python-all
+apt-get install python-simplejson python-qt4 python-twisted-conch automake autoconf gcc uml-utilities libtool build-essential pkg-config libssl-dev iproute tcpdump module-assistant debhelper python-all
 
 apt-get install linux-headers-`uname -r`
 
