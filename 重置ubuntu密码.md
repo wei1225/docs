@@ -7,3 +7,10 @@ by can.
 2. 在`Recovery Menu`处选择`Drop to root shell prompt`
 3. 此时文件系统是只读的，输入`mount -rw -o remount /`重新挂载成读写
 4. 这时可以用`passwd xxx`来修改xxx用户的密码了
+
+
+Reference:
+
+http://blog.miniasp.com/post/2012/06/12/How-to-reset-root-password-for-Ubuntu-CentOS-Debian-FreeBSD.aspx
+
+http://askubuntu.com/questions/91188/authentication-token-manipulation-error
