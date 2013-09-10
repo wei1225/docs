@@ -12,7 +12,9 @@
 		`ovs-ofctl add-flow br0 in_port=1,actions=output:2`  
 		`ovs-ofctl add-flow br0 in_port=2,actions=output:1`  
 	note: 
+	```
 		1. 可以用`ovs-vsctl show`来查看所有的ovs
 		2. 可以用`ovs-dpctl show <switch名>`来查看某个ovs上端口名和端口号的对应
 		3. 可以用`ovs-ofctl dump-flows <switch名>`来查看某个ovs的流表
+	```
 4. 使用仪表所带软件进行测试
